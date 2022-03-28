@@ -1,0 +1,19 @@
+<div class="user-details">
+    <div class="user-details-user" *ngFor="let user of userDetails">
+        <div class="u-div">
+            <h1><span>{{ user.id }}. </span>{{ user.username }}</h1>
+        </div>
+        <div class="u-div">
+            <h2>First Name: </h2>
+            <h2> {{ user.firstName }}</h2>
+        </div>
+        <div class="u-div">
+            <h2>Last Name: </h2>
+            <h2> {{ user.lastName }}</h2>
+        </div>
+        <div class="u-div">
+            <h2>About me: </h2>
+            <h2> {{ user.aboutMe }}</h2>
+        </div>
+    </div>
+</div>
