@@ -12,11 +12,13 @@ const routes: Routes = [
   },
   {
     path: 'users-list',
-    component: UsersListComponent
+    loadChildren: () =>
+      import('./components/users-list/users-list.module').then((m) => m.UsersListModule),
   },
   {
     path: 'users-details',
-    component: UsersDetailsComponent
+    loadChildren: () =>
+      import('./components/users-details/users-details.module').then((m) => m.UsersDetailsModule),
   },
   {
     path: '**',

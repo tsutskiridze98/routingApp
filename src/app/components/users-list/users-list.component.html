@@ -1,5 +1,8 @@
 <div class="user-list">
+    <div class="users-header">
+        <h2>Users List</h2>
+    </div>
     <div class="user-list-user" *ngFor="let user of userList">
-        <h1><span>{{ user.id }}. </span>{{ user.username }}</h1>
+        <a (click)="goToDetails(user)"><span>{{ user.id }}. </span>{{ user.username }}</a>
     </div>
 </div>

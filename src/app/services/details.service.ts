@@ -6,9 +6,9 @@ import { UsersDetails } from '../components/users-details/users-details.model';
   providedIn: 'root'
 })
 export class DetailsService {
-  getUsersDetails(): Promise<UsersDetails[]> {
+  getDetailById(id: number): Promise<UsersDetails | undefined> {
     return new Promise((resolve) => {
-      return resolve(data);
+      return resolve(data.find((us: any) => us.id === id));
     })
   }
 

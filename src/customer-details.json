@@ -5,5 +5,19 @@
         "firstName": "Giorgi",
         "lastName": "Bazerashvili",
         "aboutMe": "About Bazera"
+    },
+    {
+        "id": 2,
+        "username": "ladolado",
+        "firstName": "Lado",
+        "lastName": "Tsutskiridze",
+        "aboutMe": "About Lado"
+    },
+    {
+        "id": 3,
+        "username": "vinme18",
+        "firstName": "Vinme",
+        "lastName": "Vinmesdze",
+        "aboutMe": "About Vinme"
     }
 ]

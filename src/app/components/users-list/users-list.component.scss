@@ -2,12 +2,26 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 50px 0;
+
+    .users-header {
+        text-align: center;
+
+        h2 {
+            letter-spacing: 3px;
+            color: rgb(71, 8, 84);
+        }
+    }
 
     &-user {
         padding: 20px;
         
 
-        h1 {
+        a {
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+
             color: rgba( 0, 0, 0, .9);
         }
     }

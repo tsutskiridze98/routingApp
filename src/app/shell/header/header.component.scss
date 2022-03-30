@@ -3,22 +3,5 @@ header {
     padding: 30px;
     background-color: aliceblue;
 
-    box-shadow: 0 2px 30px rgba(0, 0, 0, .2);
-  
-    nav ul {
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      gap: 10px;
-      cursor: pointer;
-  
-      a {
-        text-decoration: none;
-        color: rgba(0, 0, 0, .8);
-  
-        &.active {
-          color: rgb(220, 40, 220);
-        }
-      }
-    }
-  }
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .2);
+}
